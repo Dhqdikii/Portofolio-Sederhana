@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+<div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" title="Ubah Tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img id="heroImage" src="Figure/Dhicky.jpeg">
+            </div>
+<h1 class="hero-title">
+                HI I'M DHICKY
+            </h1>
+            <p class="hero-subtitle" id="heroTitle">Student</p>
+            <div class="hero-typing" id="typingText"></div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> Lihat Proyek
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Hubungi Saya
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+<h2 class="section-title reveal"><span>ABOUT ME</span></h2>
+            <p class="section-subtitle reveal">get to know me better</p>
+            
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="about-profile">
+<div class="about-avatar">
+                            <img id="aboutImage" src="Figure/Dhicky.jpeg" alt="Profile">
+                        </div>
+                        <h3 class="about-name" id="aboutName"></h3>
+<p class="about-title" id="aboutTitle">Student</p>
+                        <p class="about-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span id="aboutLocation">Indonesia</span>
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">2+</div>
+                                <div class="stat-label">Tahun</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Proyek</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label">Klien</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+<div class="about-content reveal">
+                    <h3 id="aboutBioTitle">About Me</h3>
+                    <p id="aboutBio"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title reveal"><span>Skills</span></h2>
+            <p class="section-subtitle reveal">Technical skills that I have mastered</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-code"></i> Skills
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-tag frontend">C++</span>
+                        <span class="skill-tag backend">C</span>
+                        <span class="skill-tag tools">Python</span>
+                        <span class="skill-tag frontend">PHP</span>
+                        <span class="skill-tag backend">Laravel</span>
+                        <span class="skill-tag tools">Java</span>
+                        <span class="skill-tag frontend">Orange</span>
+                        <span class="skill-tag backend">Weka</span>
+                        <span class="skill-tag tools">MySQL</span>
+                        <span class="skill-tag frontend">Git</span>
+                        <span class="skill-tag backend">GitHub</span>
+                        <span class="skill-tag tools">VS Code</span>
+                        <span class="skill-tag frontend">Figma</span>
+                        <span class="skill-tag backend">XAMPP</span>
+                        <span class="skill-tag tools">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title reveal"><span>Proyek</span></h2>
+            <p class="section-subtitle reveal">Some projects I have worked on</p>
+            
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Project 1">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Website Portofolio</h3>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Project 2">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Membuat Dashboard Admin</h3>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop" alt="Project 3">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Membuat Hotel Management App</h3>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&h=400&fit=crop" alt="Project 4">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Membuat Game 2D</h3>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Project 5">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Menganalisis Data</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title reveal"><span>Kontak</span></h2>
+            <p class="section-subtitle reveal">Mari terhubung dengan saya</p>
+            
+            <div class="contact-content reveal">
+                <p>Saya terbuka untuk diskusi tentang proyek baru, peluang kolaborasi, atau sekadar untuk menyapa. Jangan ragu untuk menghubungi saya melalui sosial media di bawah ini!</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" class="social-link github" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-link instagram" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link linkedin" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:email@example.com" class="social-link email" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer>
+        <p>&copy; 2024 Dibuat dengan <i class="fas fa-heart" style="color: var(--secondary);"></i></p>
+        <a href="#home" class="back-to-top">
+            <i class="fas fa-arrow-up"></i> Kembali ke atas
+        </a>
+    </footer>
+
+<!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
